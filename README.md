@@ -29,3 +29,17 @@ Now build!
 Source: https://www.oxygenna.com/freebies/free-one-page-psd-template
 
 Good luck and... don't get hungry looking at all that food!
+
+## Bonus Task
+
+As stated above, there are no mobile or desktop designs. However, you can still write CSS for this.
+
+Using the device simulator in the browser, examine how the website you built responds to a smaller screen. What ways can we present the information on such a small screen?
+
+1) You may want to go for a reduced font-size
+
+2) You may want to layout content differently (so that it is not displayed in a row)
+
+3) You may want to hide certain elements from the mobile view using the `display: none` property
+
+Using the above points as a guideline, try to create mobile and desktop versions of your website.
