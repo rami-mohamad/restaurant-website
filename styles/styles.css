@@ -1,0 +1,253 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    height: 800px;
+    background: url(../images/promo-background.jpeg) center center/cover no-repeat;
+}
+.liste-nav{
+    display: flex;
+    list-style-type: none;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-style: bold;
+    font-size: 20px;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.liste-nav li:hover{
+    color: orange;
+    cursor: pointer;
+}
+.liste-nav img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.logo img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.head-line{
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    font-family: 'Slabo 27px', serif;
+    padding: 10px;
+}
+.booking{
+    list-style-type: none;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+}
+.booking .l1{
+    background-color: rgba(0, 0, 0, 0.527);
+    margin-right: 20px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+.booking .l2{
+    background-color: rgba(236, 211, 211, 0.527);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+.booking .l1:hover{
+    background-color: rgba(0, 0, 0, 0.856);
+    margin-right: 20px;
+    padding: 20px;
+    transform: scale(1.1);
+    color: orange;
+    cursor: pointer;
+}
+.booking .l2:hover{
+    background-color: rgba(250, 237, 237, 0.753);
+    padding: 20px;
+    transform: scale(1.1);
+    color: orange;
+    cursor: pointer;
+}
+.info{
+    display: flex;
+    background-image: url(../images/about-background.jpeg);
+    justify-content: space-around;
+    justify-content: center;
+}
+.about{
+    text-align: center;
+    font-size: 15px;
+    width: 500px;
+    margin: 40px 10px;
+}
+.about h2{
+    font-size: 35px;
+    color: orange;
+}
+.about .chef,
+.about .divid,
+.explain .divid{
+    width: 50%;
+}
+.info .pic{
+    margin-top: 20px;
+}
+.fine{
+    background: url(../images/ingredients-background.jpeg) center center/cover;
+    height: 700px;
+    position: relative;
+}
+.explain{
+    display: flex;
+    width: 450px;
+    height: 400px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: #fff;
+    position: relative;
+    text-align: center;
+    left:900px;
+    top: 100px;
+    align-items: center;
+}
+.image1,
+.image2,
+.image3{
+    position: absolute;
+   
+}
+.image1{
+    left: 290px;
+    top: 235px;
+}
+.image2{
+    left: 150px;
+    top: 230px;
+}
+.image3{
+    left: 20px;
+    top: 230px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    background: url(../images/menu-background.jpeg) center center/cover;
+}
+.menu-1,
+.menu-2{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 30%;
+    text-align: center;
+}
+.menu-liste{
+    color: orange;
+    font-style: bold;
+    font-size: 2em;
+}
+.menu-paragragh{
+    color: orange;
+    margin-left: 0;
+    text-underline-position: under;
+    text-decoration: underline;
+    margin-left: 0;
+}
+.guest{
+    background: url(../images/reviews-background.png)center center/cover;
+    height: 800px;
+    position: relative;
+}
+.guest-reviews{
+    background-color: rgba(0, 0, 0, 0.698);
+    color: #fff;
+    width: 35%;
+    height:450px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    top: 100px;
+}
+.guest-reviews h4{
+    font-size: 2em;
+}
+.guest-reviews p{
+    line-height: 200%;
+}
+.booking-box{
+    background: url(../images/reservations-background.jpeg) center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    line-height: 1.5em;
+}
+.booking-box h4{
+    color: orange;
+    font-size: 2em;
+    margin-top: 0;
+}
+.booking-box__image{
+    width: 700px;
+}
+.booking-box__image img{
+    margin-right: 30px;
+}
+.footer-about{
+    height: 25vh;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5em;
+}
+.footer-about div{
+    width: 25%;
+    text-align: center;
+}
+.footer-about h5{
+    font-size: 30px;
+}
+.booking-bottun{
+    list-style-type: none;
+    color: #fff;
+    background-color: rgba(236, 159, 15, 0.561);
+    width: 200px;
+    height: 30px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+.booking-bottun:hover{
+    background-color: rgba(93, 69, 33, 0.541);
+    padding: 20px;
+    transform: scale(1.1);
+    color: orange;
+    cursor: pointer;
+}
+.booking-label label,
+.booking-label input{
+    display: block;
+}
+.booking-label input{
+    padding: 10px;
+}
+.booking-label{
+    display: flex;
+    justify-content: space-between;
+}
+.teil {
+    text-align: center;
+}
